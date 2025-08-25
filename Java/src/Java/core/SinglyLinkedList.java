@@ -1,5 +1,6 @@
 package Java.core;
 
+// Single LinkedList: [1] -> [2] -> [3] -> [4] -> null
 public class SinglyLinkedList<E> implements LinkedList<E> {
     private Node<E> head; // Create Node<E> head
     private int size; // Create size variable
